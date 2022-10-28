@@ -30,12 +30,14 @@ generateInput.value ="";
  if(result1 ==result2){
 let notify2 =document.getElementById("notify2");
 notify2.style.display ="block";
-
+let notify1 =document.getElementById("notify1");
+notify1.style.display ="none";
  }
  else{
     let notify1 =document.getElementById("notify1");
     notify1.style.display ="block";
-   
+    let notify2 =document.getElementById("notify2");
+    notify2.style.display ="none";
  }
 });
 
